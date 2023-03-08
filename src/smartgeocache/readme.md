@@ -8,9 +8,9 @@ and holds a local WLAN and a web.
 The web could be used in interaction by geocachers who find the geocache ( smartcaching device )
 
 Installation:  
-Log into the ssmartgeocache.
-Enter the admin area.
-Upload useless.html to the smartgeocache.
+Log into the ssmartgeocache.  
+Enter the admin area.  
+Upload useless.html to the smartgeocache.  
 
 
 
