@@ -9,9 +9,10 @@ and holds a local WLAN and a web.
 The web could be used in interaction by geocachers who find the geocache ( smartcaching device )
 
 <h4>Installing the useless throwie on the SmartGeocache device</h4>
-Log into the smartgeocache wlan
+
+Log into the smartgeocache wlan.    
 Enter the admin area.  
-Upload useless.html to the smartgeocache.    
+Upload useless.html to the smartgeocache.  
 
 see PDF [https://github.com/schlatz/esp8266-useless-throwie/blob/master/src/smartgeocache/smartgeocache_useless_throwie.pdf] for details
 
