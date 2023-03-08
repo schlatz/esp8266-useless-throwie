@@ -1,4 +1,4 @@
-<h1>*** Folder for implementation on smartgeocache ***</h1>
+# Folder for implementation on smartgeocache #
 <h4>What is a SmartGeocache ? </h4>
 https://www.smartgeocache.com/  
 
@@ -16,9 +16,13 @@ Upload useless.html to the smartgeocache.
 see PDF [https://github.com/schlatz/esp8266-useless-throwie/blob/master/src/smartgeocache/smartgeocache_useless_throwie.pdf] for details
 
 <h4>known issues</h4>
-on iOs devices iPad, iPhone:  
+on iOs devices iPad, iPhone:
+
 * the switch-button does not light up
 * the click sound can only be heard one time
+
+
+
 
 
 
