@@ -38,8 +38,16 @@ Further instructions for configuring each device.
 * [MicroPython](src/micropython/readme.md)
 * [Arduino](src/arduino/readme.md)
 * [Web](/src/web/readme.md)
+* [SmartGeoCache](/src/smartgeocache/readme.md)
 
 ## Development Notes:
+
+### SmartGeoCache:
+  Idea ist to have the useless throwie html page as a page on the    
+  smartgeocache.  
+  By clicking the button you could light up the onboad led   
+  ( output4 )
+
 
 ### Arduino:
 
