@@ -23,4 +23,6 @@
 
 ### useless_throwie
 
+based on the great esp8266 modular webserver design from https://fipsok.de/  
+
 Simple web server that serves the html toggle switch that can flip the relay (GPIO5) and onboard LED (GPIO2) when clicked.
