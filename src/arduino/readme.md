@@ -25,4 +25,7 @@
 
 based on the great esp8266 modular webserver design from https://fipsok.de/  
 
+files from data need to be uploaded using the littlefs upload tool:   
+https://github.com/earlephilhower/arduino-esp8266littlefs-plugin
+
 Simple web server that serves the html toggle switch that can flip the relay (GPIO5) and onboard LED (GPIO2) when clicked.
