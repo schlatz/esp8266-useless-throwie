@@ -1,0 +1,64 @@
+
+<!DOCTYPE html> <!-- For more information visit: https://fipsok.de -->
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Esp8266 Dual Relais</title>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+		rel = document.getElementsByTagName('button'), led = document.getElementsByClassName('off');
+        rel[0].addEventListener('click', dual.bind(this, '1'));
+        rel[1].addEventListener('click', dual.bind(this, '2')); 
+      }, dual());
+      function dual(arg) {
+        fetch('duorel?rel=' + arg).then(response => {
+          return response.json();
+        }).then(array => {
+		  for (i = 0; i < 2; i++) {
+            array[i] != '0' ? (led[i].classList.add('on'), rel[i].innerHTML = 'Aus') : (led[i].classList.remove('on'), rel[i].innerHTML = 'Ein');
+          }
+        });
+      }       
+    </script>
+    <style>
+      main {
+        display: flex;
+      }
+      div {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 0.5em;
+      }
+      .off {
+        background-image: radial-gradient(#4ec005, #3c9801, #245a02);
+        width: 3em;
+        height: 3em;
+        margin: 0.7em;
+        border-radius: 50%;
+        border: 1em solid #bababa;
+        box-shadow: 0.3em 0.3em 0.3em #494949;
+      }
+      .on {
+        background-image: radial-gradient(#bafd6e, #3fe403);
+        border: 1em solid #c1c3c1;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Dual Relais schalten</h2>
+    <h2>Esp8266 Nodemcu Wemos</h2>
+    <main>
+      <div>
+        <span class="off"></span>Relais 1
+        <button></button>
+      </div>
+      <div>
+        <span class="off"></span>Relais 2
+        <button></button>
+      </div>
+    </main>
+  </body>
+</html>
