@@ -7,7 +7,7 @@
 
 ## Configure:
 
-* Open useless_throwie.ino in Arduino IDE
+* Open wlan_useless_throwie.ino in Arduino IDE
 * Set board to WeMos D1 Mini
 * Verify and upload
 * Reboot
