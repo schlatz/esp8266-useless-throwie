@@ -19,8 +19,10 @@ see PDF [https://github.com/schlatz/esp8266-useless-throwie/blob/master/src/smar
 <h4>known issues</h4>
 on iOs devices iPad, iPhone:
 
-* the switch-button does not light up
-* the click sound can only be heard one time
+* ~~the switch-button does not light up~~  
+* ~~the click sound can only be heard one time~~  
+
+fixed
 
 
 
