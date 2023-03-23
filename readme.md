@@ -51,9 +51,9 @@ Further instructions for configuring each device.
 
 ### Arduino:
 
-- [ ] web server
+- [x] web server
 - [ ] web server with gzip
-- [ ] captive portal
+- [x] captive portal
 - [ ] is there an ino linter / testing framework?
 
 ### MicroPython:
